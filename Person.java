@@ -61,24 +61,28 @@ public class Person {
     //Id Setter
     public void setId (int id) {
         System.out.println("Calling the Id Setter for the person : " + this.id);
+        System.out.println("Setting \'" + id + "\' in place of \'" + this.id + "\'");
         this.id = id;
     }
 
     //Age Setter
     public void setAge (int age) {
         System.out.println("Calling the Age Setter for the person : " + this.id);
+        System.out.println("Setting \'" + age + "\' in place of \'" + this.age + "\'");
         this.age = age;
     }
     
     //Name Setter
     public void setName (String name) {
         System.out.println("Calling the Name Setter for the person : " + this.id);
+        System.out.println("Setting \'" + name + "\' in place of \'" + this.name + "\'");
         this.name = name;
     }
     
     //Code Setter
     public void setCode (String code) {
         System.out.println("Calling the Code Setter for the person : " + this.id);
+        System.out.println("Setting \'" + code + "\' in place of \'" + this.code + "\'");
         this.code = code;
     }
 
