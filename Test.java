@@ -13,10 +13,12 @@ public class Test {
         //Displaying the initial attributes
         System.out.println("Displaying the initial attributes");
 
+        System.out.println(person1.getId());
         System.out.println(person1.getName());
         System.out.println(person1.getAge());
         System.out.println(person1.getCode());
 
+        System.out.println(person2.getId());
         System.out.println(person2.getName());
         System.out.println(person2.getAge());
         System.out.println(person2.getCode());
@@ -46,6 +48,16 @@ public class Test {
         System.out.println(person2.getName());
         System.out.println(person2.getAge());
         System.out.println(person2.getCode());
+
+        System.out.println("========= ========= ========= =========");
+
+        //Using Methods
+
+        person1.introduce();
+        person2.introduce();
+
+        person1.ask();
+        person2.ask();
 
         System.out.println("========= ========= ========= =========");
         

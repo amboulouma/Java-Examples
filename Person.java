@@ -89,8 +89,8 @@ public class Person {
     //Methods
 
     //Generate Id
-    static int identifier = 1;
-    public static int generateId() {
+    private static int identifier = 1;
+    private static int generateId() {
         System.out.println("Generate Id : " + identifier);
         return identifier++;
     }
@@ -110,7 +110,7 @@ public class Person {
     //ToString Method
     public String toString() {
         System.out.println("Calling the ToString Method for the person : " + this.id);
-        return this.id + " : This is " + this.name + ", he has " + this.age + " years old, and his code is : " + this.code;
+        return this.id + " : " + this.name + ", " + this.age + " years old, code : " + this.code;
     }
 
 }
