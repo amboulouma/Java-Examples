@@ -16,9 +16,9 @@ public class Person {
     }
 
     //Constructor with parameters 
-    public Person (int age, String name, String code) {
-        this.age = age;
+    public Person (String name, int age, String code) {
         this.name = name;
+        this.age = age;
         this.code = code;
     }
 
@@ -50,6 +50,20 @@ public class Person {
 
     public void setCode (String code) {
         this.code = code;
+    }
+
+    //Methods
+
+    public void introduce() {
+        System.out.println("Hello, I am " + this.name + " and I am really happy to meet you !");
+    }
+
+    public void ask() {
+        System.out.println("Is it possible to do that when we are " + this.age + " ?");
+    }
+    
+    public String toString() {
+        return "This is " + this.name + ", he has " + this.age + " years old, and his code is : " + this.code;
     }
 
 }
